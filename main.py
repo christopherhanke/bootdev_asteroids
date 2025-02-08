@@ -24,9 +24,6 @@ def main():
         updateable.update(dt)
         for object in drawable:
             object.draw(screen)
-
-        # p1.draw(screen)
-        # p1.update(dt)
         pygame.display.flip()
         dt = pygame.time.Clock.tick(game_time, 60) / 1000
         
